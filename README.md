@@ -1,15 +1,15 @@
 # Neuronet
  Modular AI command system with expert autonomous agents powered by Mistral API.
 
-# 🧠 Neuronet: Modular Autonomous Agent Framework
+# Neuronet: Modular Autonomous Agent Framework
 
 **Neuronet** is a scalable and modular Central AI System built in Python, powered by Mistral APIs. It utilizes a hierarchy of intelligent autonomous agents, each specialized in a particular domain, all coordinated by a central controller.
 
-## 🚀 Overview
+## Overview
 
 Neuronet is designed to decompose complex user objectives into manageable subtasks and intelligently distribute them to the appropriate domain-specific agents. Each agent operates independently while communicating with the central controller and, when needed, with other agents.
 
-## 📦 Architecture
+## Architecture
 
 - **Central Controller**: Receives user instructions and determines strategy.
 - **Specialized Agents**: Modular units acting as domain experts (e.g., research, coding, evaluation).
@@ -18,7 +18,7 @@ Neuronet is designed to decompose complex user objectives into manageable subtas
 
 
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - Python 3.11+
 - Mistral API
@@ -26,7 +26,7 @@ Neuronet is designed to decompose complex user objectives into manageable subtas
 - Vector Stores (e.g., FAISS/ChromaDB)
 - AsyncIO for concurrent task handling
 
-## 🧩 Agents (Example Modules)
+## Agents (Example Modules)
 
 - **Strategy Agent**: Plans subtask execution flow.
 - **Research Agent**: Gathers and summarizes information.
@@ -36,7 +36,7 @@ Neuronet is designed to decompose complex user objectives into manageable subtas
 
 Each agent is plug-and-play and can be swapped or extended independently.
 
-## 📁 Project Structure (Planned)
+## Project Structure (Planned)
 neuronet/ 
 │ 
 ├── core/ # Central controller and task manager 
@@ -46,15 +46,15 @@ neuronet/
 ├── examples/ # Sample objective runs 
 └── README.md
 
-## 🔮 Vision
+## Vision
 
 Neuronet aims to be a base for building next-generation AI systems capable of handling complex objectives autonomously through a team of collaborative, intelligent agents.
 
-## 🤝 Contributing
+## Contributing
 
 Open to collaborations! Feel free to fork the repo and raise PRs or suggestions.
 
 
-## 📄 License
+## License
 
 MIT License
